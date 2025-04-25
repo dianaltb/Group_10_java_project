@@ -1,9 +1,7 @@
-package hadi;
+package diana;
 
 public class Test {
-
     public static void main(String[] args) {
-
-        System.out.println("Hello friends!");
+        System.out.println("Hello group 10");
     }
 }
