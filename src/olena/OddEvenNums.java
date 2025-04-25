@@ -2,7 +2,9 @@ package olena;
 
 public class OddEvenNums {
     public static void main(String[] args) {
-       oddEven(13);
+       oddEven(6);
+       oddEven(5);
+
 
     }
     public static void oddEven ( int num){
