@@ -4,7 +4,7 @@ public class OddOrEven {
 
     public static void main(String[] args) {
 
-        int num = 6;
+        int num = 5;
         String result = "";
 
 
