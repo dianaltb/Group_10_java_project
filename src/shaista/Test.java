@@ -1,7 +1,7 @@
-package diana;
+package shaista;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Hello group 10");
+        System.out.println("Hello Guys");
     }
 }
