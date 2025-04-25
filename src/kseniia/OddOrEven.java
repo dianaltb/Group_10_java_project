@@ -8,9 +8,9 @@ public class OddOrEven {
         String result = "";
 
 
-        if(num %2 == 0){
+        if(num % 2 == 0){
             result = "Number " + num + " is even";
-        }else{
+        }else if(num % 2 != 0){
             result = "Number " + num + " is odd";
         }
         System.out.println(result);
