@@ -3,6 +3,7 @@ package olena;
 public class OddEvenNums {
     public static void main(String[] args) {
        oddEven(6);
+
        oddEven(5);
 
 
