@@ -2,19 +2,15 @@ package kseniia;
 
 public class OddOrEven {
 
-    public static void main(String[] args) {
-
-        int num = 5;
-
-
-
-        if(num % 2 == 0){
-            System.out.println("Number " + num + " is even");
-        }else if(num % 2 != 0){
-            System.out.println("Number " + num + " is odd");
-        }
-
+    public static String identify(int number) {
+        return (number % 2 == 0) ? "Even" : "Odd";
     }
-}
+
+        public static void main (String[]args){
+
+            System.out.println("\"" + identify(5) + "\"");
+            System.out.println("\"" + identify(6) + "\"");
+        }
+    }
 
 
