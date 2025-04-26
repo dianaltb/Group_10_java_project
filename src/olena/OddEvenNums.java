@@ -2,12 +2,12 @@ package olena;
 
 public class OddEvenNums {
     public static void main(String[] args) {
-       oddEven(6);
-       oddEven(5);
+       identify(6);
+       identify(5);
 
 
     }
-    public static void oddEven ( int num){
+    public static void identify(int num){
 
         if ( num % 2 == 0){
             System.out.println(num+" is the even number");
