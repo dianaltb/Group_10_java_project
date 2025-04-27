@@ -1,7 +1,8 @@
-package diana;
+package oleksandr;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Hello from Diana");
+
+        System.out.println("Hello!");
     }
 }
