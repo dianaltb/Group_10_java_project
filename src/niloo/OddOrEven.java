@@ -1,24 +1,27 @@
 package niloo;
 
-/*  Write  a method which can identify given number is even or odd
+/* Task: Write  a method which can identify given number is even or odd
   Output ex:
   identify(5); ->"Odd"
   identify(6); ->"Even"
    */
 public class OddOrEven {
 
-    public static String identify(int num) {
+    // creating identify() method with void return type:
+    public static void identify(int num) {
+
         if (num % 2 == 1) {
-            return "Odd";
+            System.out.println("\"" + "Odd" + "\"");
         } else {
-            return "Even";
+            System.out.println("\"" + "Even" + "\"");
         }
     }
 
     public static void main(String[] args) {
 
-        System.out.println("\"" + identify(5) + "\"");
-        System.out.println("\"" + identify(6) + "\"");
+        identify(5);
+        identify(6);
+
     }
 }
 
