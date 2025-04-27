@@ -6,6 +6,7 @@ public class OddOrEven {
 
         identify(4);
 
+
     }
 
     public static void identify(int num) {
