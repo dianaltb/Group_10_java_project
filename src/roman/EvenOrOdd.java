@@ -12,4 +12,10 @@ public class EvenOrOdd {
             System.out.println(num + " is Odd");
         }
     }
+
+    public static void main(String[] args) {
+
+        evenOrOdd(0);
+
+    }
 }
