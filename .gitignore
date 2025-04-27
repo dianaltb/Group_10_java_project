@@ -1,10 +1,12 @@
 ### IntelliJ IDEA ###
+
 out/
 *.iml
 .idea
 
 !**/src/main/**/out/
 !**/src/test/**/out/
+!**/src/roman/TestClass.java
 
 ### Eclipse ###
 .apt_generated
