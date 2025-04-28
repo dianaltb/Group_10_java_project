@@ -4,11 +4,8 @@ import java.util.Random;
 
 public class OddOrEven {
     public static void main(String[] args) {
-        Random random = new Random();
-        int num = random.nextInt(50) + 1;
-
-        evenOrOdd(num);
-        //16 is the even number.
+        evenOrOdd(new Random().nextInt(50) + 1);
+        //17 is the odd number.
     }
 
     public static void evenOrOdd(int num){
