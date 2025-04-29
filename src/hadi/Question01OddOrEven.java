@@ -11,6 +11,7 @@ public class Question01OddOrEven {
 
         System.out.println(identify(5));
         System.out.println(identify(6));
+        System.out.println("another one");
     }
 
     public static String identify(int number) {
