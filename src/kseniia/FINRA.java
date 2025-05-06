@@ -10,10 +10,10 @@ Example:
  */
 public class FINRA {
     public static void main(String[] args) {
-        Finra();
+        Finra(1,30);
     }
-        public static void Finra() {
-            for (int i = 1; i <= 30; i++) {
+        public static void Finra(int start, int end) {
+            for (int i = start; i <= end; i++) {
                 String output = (i % 3 == 0 && i % 5 == 0) ? "FINRA"
                         : (i % 3 == 0) ? "FIN"
                         : (i % 5 == 0) ? "RA"
