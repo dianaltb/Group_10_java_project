@@ -19,7 +19,9 @@ public class FinRa {
             return;
         }
         for (int i = start; i <= end; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
+            if(i==0){
+                System.out.print("ZERO"+ " ");
+            }else if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print(" FINRA ");
             } else if (i % 3 == 0) {
                 System.out.print(" FIN ");
@@ -30,5 +32,8 @@ public class FinRa {
             }
         }
 
+        System.out.println();  // Adds line break after each result
+
     }
+
 }
