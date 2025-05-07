@@ -10,6 +10,7 @@ public class OddOrEven {
             System.out.println(num+ " is even number");
         }else{
             System.out.println(num+" is odd number");
+
         }
     }
 }
