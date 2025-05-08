@@ -28,7 +28,6 @@ public class FinRa {
             if(i % 3 == 0){
                 str += "Fin";
             }
-
             if(i % 5 == 0){
                 str += "Ra";
             }
