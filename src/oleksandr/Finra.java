@@ -1,17 +1,15 @@
 package oleksandr;
 
-import java.util.Arrays;
-
 public class Finra {
     public static void main(String[] args) {
 
-        finra();
+        finra(1,30);
 
 
     }
 
-    public static void finra() {
-        for (int i = 1; i <= 30; i++) {
+    public static void finra(int num1, int num2) {
+        for (int i = num1; i <= num2; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FINRA ");
             } else if (i % 3 == 0) {
