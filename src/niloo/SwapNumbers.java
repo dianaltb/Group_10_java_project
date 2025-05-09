@@ -16,6 +16,5 @@ public class SwapNumbers {
         num2 = num1-num2; // num2 = 40 - 30 = 10
         num1 = num1-num2; // num1 = 40 - 10 = 30
         System.out.println("after swap: "+ "num1 = " + num1 + ", num2 = " + num2 );
-
     }
 }
