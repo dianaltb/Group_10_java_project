@@ -6,6 +6,8 @@ public class SwapNumbers {
         System.out.println("=============");
         swapWithTemp(10, 5);
         /*
+        Before swapping:
+        First: 5
         Second: 10
         After swapping:
         First: 10
