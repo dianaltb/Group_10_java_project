@@ -1,14 +1,15 @@
 package nataliia;
 
 public class FinRa {
+
     public static void main(String[] args) {
 
-        printFinra();
+        printFinra(30);
     }
 
-    public static void printFinra() {
+    public static void printFinra(int num) {
 
-        for (int i = 1; i <= 30; i++) {
+        for (int i = 1; i <= num; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FINRA ");
