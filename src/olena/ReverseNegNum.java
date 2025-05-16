@@ -21,11 +21,15 @@ public class ReverseNegNum {
 
    // SECOND METHOD W/STRING BUILDER
     public static int numberRev2(int num){
+        if(num<0){
+            String temp = String.valueOf(num).substring(1);
+            StringBuilder builder = new StringBuilder(temp);
+            return -(Integer.valueOf(builder.reverse().toString()));
 
-        String temp = String.valueOf(num).substring(1);
-
-        StringBuilder builder = new StringBuilder(temp);
-        return -(Integer.valueOf(builder.reverse().toString()));
-
+        }else { // in case we get a positive number
+            String temp = String.valueOf(num);
+            StringBuilder builder = new StringBuilder(temp);
+            return Integer.valueOf(builder.reverse().toString());
+        }
     }
 }
