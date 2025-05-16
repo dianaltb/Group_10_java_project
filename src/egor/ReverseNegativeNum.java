@@ -18,9 +18,6 @@ public class ReverseNegativeNum {
     }
 
     private static int reverseNum(int num){
-        if(num > 0){
-            num = -num;
-        }
         StringBuilder builder = new StringBuilder(String.valueOf(num).substring(1));
         return Integer.parseInt("-" + builder.reverse());
     }
