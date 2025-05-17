@@ -13,11 +13,12 @@ public class ReverseNegativeNumber {
     }
 
     private static int reverseNumber(int number) {
+
+        StringBuilder sb = new StringBuilder(number + "");
+
         if (number > 0) {
-            StringBuilder sb = new StringBuilder(number + "");
             return Integer.parseInt(sb.reverse().toString());
         } else {
-            StringBuilder sb = new StringBuilder(number + "");
             return -(Integer.parseInt(sb.reverse().toString().replaceAll("-","")));
         }
     }
