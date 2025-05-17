@@ -3,8 +3,12 @@ package oleksandr;
 public class ReverseNegativeNumber {
     public static void main(String[] args) {
 
-        System.out.println("reverseNumber(-125) = " + reverseNumber(-125));
-        System.out.println("reverseNumber(125) = " + reverseNumber(125));
+        int positive = 125;
+        int negative = -125;
+
+        System.out.println("reverseNumber(positive) = " + reverseNumber(positive));
+        System.out.println("reverseNumber(negative) = " + reverseNumber(negative));
+
 
     }
 
