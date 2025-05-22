@@ -6,10 +6,10 @@ import java.util.Map;
 public class WordTask {
     public static void main(String[] args) {
         //  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
-        System.out.println(word("AAABBCDD"));
+        System.out.println(letterFrequency("AAABBCDD"));
     }
 
-    public static String word(String input) {
+    public static String letterFrequency(String input) {
 
         Map<Character, Integer> letterCount = new HashMap<>();
         for (char letter : input.toCharArray()) {
