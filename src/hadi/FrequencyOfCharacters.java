@@ -54,5 +54,4 @@ public class FrequencyOfCharacters {
         return result.toString();
     }
 
-
 }
