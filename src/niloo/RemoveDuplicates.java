@@ -7,8 +7,7 @@ Ex:  removeDup("AAABBBCCC")  ==> ABC
  */
 
 import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
+
 import java.util.Set;
 
 public class RemoveDuplicates {
