@@ -23,6 +23,7 @@ public class RemoveDuplicates {
         for (char letter : vedro){
             builder.append(letter);
         }
+
         return  builder.toString();
 
     }
