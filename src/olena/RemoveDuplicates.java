@@ -25,6 +25,5 @@ public class RemoveDuplicates {
         }
 
         return  builder.toString();
-
     }
 }
