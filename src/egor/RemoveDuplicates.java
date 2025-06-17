@@ -60,12 +60,4 @@ public class RemoveDuplicates {
         }
         return result;
     }
-    public static String test(String str){
-        return str.chars()
-                .distinct()
-                .collect(StringBuilder::new,
-                        (sb, c) -> sb.append((char) c),
-                        StringBuilder::append)
-                .toString();
-    }
 }
