@@ -18,7 +18,6 @@ public class RemoveDuplicates {
         3.Stream + sb2: ABC
         4.Set + 2 loops: ABC
          */
-
     }
 
     public static String removeDup1(String str) {
@@ -61,5 +60,12 @@ public class RemoveDuplicates {
         }
         return result;
     }
+    public static String test(String str){
+        return str.chars()
+                .distinct()
+                .collect(StringBuilder::new,
+                        (sb, c) -> sb.append((char) c),
+                        StringBuilder::append)
+                .toString();
+    }
 }
-
