@@ -18,7 +18,6 @@ public class RemoveDuplicates {
         3.Stream + sb2: ABC
         4.Set + 2 loops: ABC
          */
-
     }
 
     public static String removeDup1(String str) {
@@ -62,4 +61,3 @@ public class RemoveDuplicates {
         return result;
     }
 }
-
