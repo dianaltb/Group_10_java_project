@@ -10,6 +10,8 @@ public class UniqueChars {
         System.out.println("IntStream + Stream: " + uniqueStream("AAABBBCCCDEF"));
         System.out.println("======================");
         System.out.println("Two loops + concat: " + uniqueLoop("AAABBBCCCDEF"));
+        System.out.println("======================");
+        System.out.println("Indexes: " + getUnique("AAABBBCCCDEF"));
         /*
         IntStream + Stream: DEF
         ======================
@@ -39,6 +41,16 @@ public class UniqueChars {
         String result = "";
         for(char ch : list){
             result += ch;
+        }
+        return result;
+    }
+
+    private static String getUnique(String str){
+        String result = "";
+        for(char ch : str.toCharArray()){
+            if(str.indexOf(ch) == str.lastIndexOf(ch)){
+                result += ch;
+            }
         }
         return result;
     }
