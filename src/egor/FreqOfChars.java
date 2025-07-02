@@ -18,6 +18,7 @@ public class FreqOfChars {
                 .toList();
         for(char ch : list){
             map.putIfAbsent(ch, Collections.frequency(list, ch));
+
         }
         for(char key : map.keySet()){
             builder.append(key).append(map.get(key));
