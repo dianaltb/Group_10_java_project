@@ -34,6 +34,7 @@ public class FrequencyOfCharacters {
         }
 
         return sb.toString();
+        
     }
 
 }
