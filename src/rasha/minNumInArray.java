@@ -23,5 +23,7 @@ public class minNumInArray {
             }
         }
         return min;
+
+
     }
 }
