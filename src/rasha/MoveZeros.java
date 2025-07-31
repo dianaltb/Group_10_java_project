@@ -14,11 +14,11 @@ public class MoveZeros {
 
         int[] input = {1, 0, 2, 0, 3, 0, 4, 0};
 
-        System.out.println(moveZeros(input));
+        System.out.println(Arrays.toString(moveZeros(input)));
 
     }
 
-    public static ArrayList<Integer> moveZeros(int[] arr) {
+    public static int[] moveZeros(int[] arr) {
 
         ArrayList<Integer> temp = new ArrayList();
         ArrayList<Integer> temp2 = new ArrayList();
@@ -35,7 +35,7 @@ public class MoveZeros {
 
         temp.addAll(temp2);
 
-        return temp;
+        return temp.stream().mapToInt(Integer::intValue).toArray();
     }
 
 }
